@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+ name: my-qa
+ namespace: qa
+ annotations:
+   eks.amazonaws.com/role-arn: arn:aws:iam::095304171175:role/s3-list-role
